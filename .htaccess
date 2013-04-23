@@ -1,0 +1,12 @@
+# .htaccess for Catagrid.com
+# Written by Bill, this is not part of CodeIgniter but works with it.
+
+# !IMPORTANT: These directives should go into your Virtual Host config
+# .htaccess files are overhead. Having these configs preloaded will speed
+# up your site. Granted, this is like a 1k file, but still. It's important
+# to do things the right way.
+
+# This removes 'index.php' from the URL for pretty URLs
+RewriteEngine on
+RewriteCond $1 !^(index\.php|[Javascript / CSS / Image root Folder name(s)]|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
