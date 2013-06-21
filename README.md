@@ -23,3 +23,5 @@ Categories will have a specific color assigned to them.
 * Ways to see other users' bookmarks.
 * Bookmarks will use a screenshot of the bookmarked site overlaid on the categories' color. 
 * Users can upload an icon for themselves. 
+
+Testing
