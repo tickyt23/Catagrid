@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!-- HTML5 Mobile Boilerplate -->
+<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+
+
+<head>
+<meta charset="utf-8">
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Categrid</title>
+
+<meta name="description" content="This is the Responsive Grid System, a quick, easy and flexible way to create a responsive web site.">
+<meta name="keywords" content="responsive, grid, system, web design">
+<meta name="author" content="www.grahamrobertsonmiller.co.uk">
+<meta http-equiv="cleartype" content="on">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="../css/html5reset.css" media="all">
+<link rel="stylesheet" href="../css/responsivegridsystem.css" media="all">
+<link rel="stylesheet" href="../css/col.css" media="all">
+<link rel="stylesheet" href="../css/2cols.css" media="all">
+<link rel="stylesheet" href="../css/3cols.css" media="all">
+
+<!-- Responsive Stylesheets -->
+<link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="/css/1024.css">
+<link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="/css/768.css">
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="/css/480.css">
+<link rel="icon" type="image/png" href="../favicon.jpg" />
+<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40060234-1', 'categrid.com');
+  ga('send', 'pageview');
+
+</script>
+<script src="../js/modernizr-2.5.3-min.js"></script>
+<link href='http://fonts.<div class="box_text"><h3>google</h3>
+<h4>other text</h4></div>apis.com/css?family=Raleway:200,300,400' rel='stylesheet' type='text/css'>
+<style type="text/css">
+.add {
+	color: #686868;
+	float: right;
+	font-size: 27px;
+	font-weight: lighter;
+	margin-right: 70px;
+	margin-top: 15px;
+	min-width: 201px;
+}
+/*  THIS IS JUST TO GET THE GRID TO SHOW UP.  YOU DONT NEED THIS IN YOUR CODE */
+
+
+#maincontent {
+	max-width: 830px !important;
+}
+#maincontent .col {
+	background: #ccc;
+	background: rgba(204, 204, 204, 0.85);
+}
+.green_block {
+	background: none repeat scroll 0 0 #A8E550 !important;
+	border-radius: 2px 2px 2px 2px;
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 38px;
+	font-weight: 100;
+	text-align: right;
+	box-shadow: 0 0 3px 0 #666666;
+}
+.green_block:hover {
+	background: #b7f261 !important;
+}
+.span_1_of_3, .span_2_of_3, .span_3_of_3 {
+	height: 250px !important;
+	margin-right: 25px !important;
+	min-width: 250px !important;
+	max-width: 250px;
+}
+.box_text {
+	margin-top: 177px;
+	margin-right: 9px
+}
+#footer {
+	margin-top: 40px;
+}
+#footer p {
+	font-family: 'Raleway', sans-serif;
+	color: #686868;
+	font-size: 12px;
+	font-weight: lighter;
+	text-align: center;
+	margin-left: -30px
+}
+ @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+.add {
+	float: left;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.categories {
+	margin-left: 10px;
+}
+.box_text {
+	margin-top: 80px;
+	margin-right: 10px;
+}
+.footer p {
+	text-align: left !important;
+}
+#maincontent {
+	width: 100%;
+}
+.span_1_of_3, .span_2_of_3, .span_3_of_3 {
+	margin-right: 25px !important;
+	min-width: 250px !important;
+	max-width: none !important;
+	height: 150px !important;
+}
+}
+ @media only screen and (max-width: 870px), only screen and (max-device-width: 870px) {
+.add {
+	margin-top: 12px;
+}
+.categories {
+	margin-left: 10px;
+}
+.box_text {
+	margin-top: 80px;
+	margin-right: 10px;
+}
+.footer p {
+	text-align: left !important;
+}
+#maincontent {
+	width: 100%;
+}
+.span_1_of_3, .span_2_of_3, .span_3_of_3 {
+	margin-right: 25px !important;
+	min-width: 250px !important;
+	max-width: none !important;
+	height: 150px !important;
+}
+}
+</style>
+</head>
+
+<body>
+<!-- TemplateBeginEditable name="content" -->
+<div id="skiptomain"><a href="#maincontent">skip to main content</a></div>
+<div id="wrapper">
+<div id="headcontainer" style="margin-top:-100px;padding-bottom:120px">
+  <header style="width:100%">
+    <div class="user" style="float:left;" ><img src="../account-img.jpg"></div>
+    <div class="add"><a href="#">Add BookMark +</a></div>
+  </header>
+</div>
+<div id="maincontentcontainer">
+  <div id="maincontent">
+    <div class="categories" ><img src="../account-img.jpg"></div>
+    <div class="section group"> <a href="http://www.google.com" target="_blank">
+      <div class="green_block col span_1_of_3">
+        <div class="box_text">
+          <h3>google</h3>
+          <h4>news</h4>
+        </div>
+      </div>
+      </a><a href="http://www.yahoo.com" target="_blank">
+      <div class="green_block col span_2_of_3">
+        <div class="box_text">
+          <h3>yahoo</h3>
+          <h4>gossip news</h4>
+        </div>
+      </div>
+      </a> <a href="http://www.foxnews.com" target="_blank">
+      <div class="green_block col span_3_of_3">
+        <div class="box_text">
+          <h3>fox news</h3>
+          <h4>angry news</h4>
+        </div>
+      </div>
+      </a> <a href="http://www.cnn.com" target="_blank">
+      <div class="green_block col span_1_of_3">
+        <div class="box_text">
+          <h3>cnn</h3>
+          <h4>forgetful news</h4>
+        </div>
+      </div>
+      </a> <a href="http://www.comingsoon.net" target="_blank">
+      <div class="green_block col span_2_of_3">
+        <div class="box_text">
+          <h3>movie</h3>
+          <h4>comingsoon</h4>
+        </div>
+      </div>
+      </a> <a href="http://www.chicagotribune.com" target="_blank">
+      <div class="green_block col span_3_of_3">
+        <div class="box_text">
+          <h3>tribune</h3>
+          <h4>chicago tribune</h4>
+        </div>
+      </div>
+      </a> <a href="http://www.rollingstone.com" target="_blank">
+      <div class="green_block col span_1_of_3">
+        <div class="box_text">
+          <h3>the stone</h3>
+          <h4>rolling stone</h4>
+        </div>
+      </div>
+      </a> <a href="http://www.espn.com">
+      <div class="green_block col span_2_of_3">
+        <div class="box_text">
+          <h3>espn</h3>
+          <h4>sports news</h4>
+        </div>
+      </div>
+      </a> <a href="http://www.adage.com" target="_blank">
+      <div class="green_block col span_3_of_3">
+        <div class="box_text">
+          <h3>adage</h3>
+          <h4>ad news</h4>
+        </div>
+      </div>
+      </a> </div>
+  </div>
+</div>
+<!-- TemplateEndEditable -->
+<div id="footer">
+  <p>Copyright 2013. All rights reserved | <a href="mailto:catagrid@gmail.com">Request your own</a>
+</div>
+
+
+<!-- JavaScript at the bottom for fast page loading --> 
+
+<!-- Grab <div class="box_text"><h3>google</h3>
+<h4>other text</h4></div> CDN's jQuery, with a protocol relative URL; fall back to local if necessary --> 
+<script src="//ajax.<div class="box_text"><h3>google</h3>
+<h4>other text</h4></div>apis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script> 
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+	<script src="js/selectivizr-min.js"></script>
+	<![endif]--> 
+
+<!-- More Scripts--> 
+<script src="../js/responsivegridsystem.js"></script>
+</body>
+</html>

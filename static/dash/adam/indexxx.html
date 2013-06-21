@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("#button1").click(function(){
+    $("#category1").removeAttr('class').addClass("move");
+  });
+});
+$(document).ready(function(){
+  $("#button2").click(function(){
+    $("#category2").removeAttr('class').addClass("intro2");
+  });
+});
+$(document).ready(function(){
+  $("#button3").click(function(){
+    $("#category3").removeAttr('class').addClass("intro3");
+  });
+});
+</script>
+<style>
+.intro{font-size:150%;color:red;}
+.intro2 {font-size:200%;color:green;}
+.intro3 {font-size:300%;color:blue;}
+
+#button1, #button2, #button3 {width: 10px; height: 10px;border-radius: 50%;float:left;margin:20px;}
+
+#button1 {background: red;}
+
+#button2 {background: green;}
+
+#button3 {background: blue;}
+
+.move {margin-left:100px;}
+	
+.clear_line {clear:both;}
+</style>
+</head>
+<body>
+
+<div id="button1"><a href="#"></a></div><div id="button2"></div><div id="button3"></div>
+<div class="clear_line"></div>
+
+<div id="category1">
+<h1>This is a heading for one block</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+</div>
+
+
+
+
+<div id="category2" style="color:green;">
+<h1>This is a heading for one block</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+</div>
+
+
+
+
+<div id="category3" style="color:blue;">
+<h1>This is a heading for one block</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+</div>
+
+<div class="red"><a href="#">Add a class name to the first p element</a></div>
+<br />
+<div class="green"><a href="#">Add a class name to the first p element</a></div>
+<br />
+<div class="blue"><a href="#">Add a class name to the first p element</a></div>
+
+</body>
+</html>
